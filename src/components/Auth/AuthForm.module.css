@@ -1,0 +1,69 @@
+.auth {
+  color: white;
+  background-color: rgb(12, 10, 23);
+  width: 100%;
+  max-width: 25rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 8rem auto;
+  text-align: center;
+}
+
+.auth h1 {
+  font-size: 2rem;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.auth label {
+  font-weight: bold;
+  display: block;
+  padding: 0.5rem;
+  /* padding-top: 0rem; */
+  font-size: 1.5rem;
+}
+
+.auth input {
+  font: inherit;
+  width: 80%;
+  background-color: rgb(112, 111, 117);
+  text-align: left;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 0.5rem;
+  color: white;
+}
+
+.buttons button {
+  font: inherit;
+  color: white;
+  background-color: rgb(112, 111, 117);
+  display: block;
+  width: 50%;
+  padding: 0.5rem;
+  font-weight: bold;
+  margin: 1.2rem auto;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.buttons button:hover,
+.buttons button:active {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.buttons .toggle {
+  margin: 0rem auto 0.5rem auto;
+  width: auto;
+  border: none;
+  background-color: transparent;
+}
+
+.buttons .toggle:hover,
+.buttons .toggle:active {
+  background-color: transparent;
+  border: none;
+  color: rgb(112, 111, 117);
+}

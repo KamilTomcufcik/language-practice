@@ -1,0 +1,92 @@
+.startButton {
+  font-family: inherit;
+  color: inherit;
+  display: flex;
+  font-size: 4rem;
+  align-self: center;
+  justify-self: center;
+  margin: 10rem auto;
+  padding: 1.5rem 5rem;
+  text-transform: uppercase;
+  background-color: rgb(12, 10, 23);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.startButton:active,
+.startButton:hover {
+  background-color: rgb(53, 145, 53);
+}
+
+.practice {
+  display: grid;
+  width: fit-content;
+  grid-template-columns: 1fr 1fr;
+  margin: 10rem auto 2rem auto;
+  padding: 2.5rem;
+  background-color: rgb(12, 10, 23);
+  border-radius: 2rem;
+  justify-items: center;
+  align-items: baseline;
+  gap: 2.5rem;
+}
+
+.practice p {
+  background-color: rgb(112, 111, 117);
+  font-family: inherit;
+  font-size: 1.4rem;
+  width: 20rem;
+  overflow-wrap: break-word;
+
+  height: fit-content;
+  padding: 0.7rem 1rem;
+  border: 1px solid rgb(112, 111, 117);
+  text-align: center;
+  margin: 0;
+  border-radius: 0.5rem;
+}
+
+.practice input {
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 0.7rem 1rem;
+  width: 20rem;
+  background-color: rgb(112, 111, 117);
+  color: inherit;
+  font-family: inherit;
+  font-size: 1.4rem;
+}
+
+.practice input::placeholder {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.practice button {
+  height: fit-content;
+  width: fit-content;
+  font-weight: 600;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 2rem;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  padding: 1rem 2rem;
+  background-color: rgb(112, 111, 117);
+}
+
+.practice .nextButton {
+  justify-self: end;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-family: inherit;
+}
+
+.practice .nextButton:active:enabled,
+.practice .nextButton:hover:enabled {
+  background-color: rgba(255, 255, 255, 0.6);
+}

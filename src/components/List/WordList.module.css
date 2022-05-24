@@ -1,0 +1,32 @@
+.list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 2rem 0rem;
+}
+
+.list ul {
+  border-radius: 2rem;
+  list-style: none;
+  background-color: rgb(12, 10, 23);
+  margin: 0;
+  padding: 2rem;
+}
+
+.list .labels {
+  display: flex;
+  justify-content: flex-start;
+  /* margin: auto; */
+  align-items: baseline;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin: 0rem 2rem;
+  /* margin: 0rem 2rem 0rem 2rem; */
+  /* margin: 0 1.9rem 0 1.9rem; */
+}
+.list .labels label {
+  /* margin: 0 8.3rem 0rem 8.9rem; */
+
+  text-align: center;
+  width: 16rem;
+}

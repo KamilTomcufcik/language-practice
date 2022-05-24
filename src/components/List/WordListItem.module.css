@@ -1,0 +1,49 @@
+.item {
+  background-color: rgb(112, 111, 117);
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+  align-items: baseline;
+  padding: 0.4rem 1rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.item p {
+  margin: 0.3rem 0rem;
+  width: 16rem;
+  overflow-wrap: break-word;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.item .correct {
+  color: rgb(0, 255, 0);
+  font-size: 1.2rem;
+}
+
+.item .false {
+  color: rgb(252, 97, 97);
+  font-size: 1.2rem;
+}
+
+.item button {
+  height: fit-content;
+  font-size: 1rem;
+  width: fit-content;
+  font-weight: 600;
+  border-radius: 5rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  margin: 0;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  background-color: rgb(12, 10, 23);
+  color: white;
+  cursor: pointer;
+}
+
+.item button:active,
+.item button:hover {
+  background-color: rgb(245, 62, 62);
+}

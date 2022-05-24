@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans';
+  margin: 0;
+  /* background-color: rgb(240, 196, 220); */
+  background-image: url('./assets/stardust.png');
+  background-size: cover;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.focused {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+#noWords {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1.8rem;
+  border-radius: 2rem;
+  margin: 2rem auto;
+  width: fit-content;
+  background-color: rgb(12, 10, 23);
+}

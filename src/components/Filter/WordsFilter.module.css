@@ -1,0 +1,49 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 0 auto;
+  border-radius: 2rem;
+  background-color: rgb(12, 10, 23);
+  width: fit-content;
+  min-width: 25rem;
+}
+
+.filter h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.filter input {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 0.5rem;
+  font: inherit;
+  /* font-size: 1rem; */
+  margin-bottom: 1rem;
+  background-color: rgb(112, 111, 117);
+  color: inherit;
+}
+
+.filter input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.filter button {
+  border-radius: 1.2rem;
+  height: fit-content;
+  color: inherit;
+  font: inherit;
+  padding: 0.5rem 0.7rem;
+  background-color: rgb(112, 111, 117);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.filter button:hover:enabled,
+.filter button:active:enabled {
+  background-color: rgba(255, 255, 255, 0.6);
+}

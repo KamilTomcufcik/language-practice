@@ -1,0 +1,27 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  margin-left: 74.5%;
+  /* width: 20%; */
+}
+
+.button button {
+  height: fit-content;
+  width: fit-content;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: rgb(12, 10, 23);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 2rem;
+  margin: 0;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.button button:active,
+.button button:hover {
+  background-color: rgb(112, 111, 117);
+}
